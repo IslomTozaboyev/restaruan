@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+
+    <!--======================LINLKS======================-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Responsive Portfolio Website</title>
+</head>
+<!-- SCROLL TOP -->
+<a href="#" class="scrolltop scroll-top" id="scroll-top">
+    <i class="fas fa-arrow-up scrolltop__icon"></i>
+</a>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="l-header scroll-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Tasty</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#menu" class="nav__link">Menu</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-moon change-theme" id="theme-button"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars nav__icon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="l-main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Tasty food</h1>
+                    <h2 class="home__subtitle">Try the best food of <br>the week</h2>
+                    <a href="#" class="button">View More</a>
+                </div>
+
+                <img src="./assets/img/res3.1.png" alt="rasm" class="home__img">
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container bd-grid bd-flex">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">About Us</span>
+                    <h2 class="section-title about__initial">We cook the best <br> tasty food</h2>
+                    <p class="about-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim architecto amet animi veniam. Sint, similique.
+                    </p>
+                    <a href="#" class="button">Example history</a>
+                </div>
+
+                <img src="./assets/img/res1.jpg" alt="" class="about__img">
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle">Offering</span>
+            <h2 class="section-title">Our Amazing services</h2>
+
+            <div class="services__container bd-grid bd-flex">
+                <div class="services__content">
+              <img src="./assets/img/png1.png" class="services__png" alt="rasm">
+                    <h2 class="services__title">Exellent food</h2>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente debitis necessitatibus illo vitae laudantium? Sunt quis alias vel voluptatibus delectus!</p>
+                </div>
+
+                <div class="services__content">
+                   <img src="./assets/img/foodpng3-removebg-preview.png" class="services__png" alt="rasm">
+                    <h2 class="services__title">Fast food</h2>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente debitis necessitatibus illo vitae laudantium? Sunt quis alias vel voluptatibus delectus!</p>
+                </div>
+
+                <div class="services__content">
+                    <img src="./assets/img/png3-removebg-preview.png" class="services__png" alt="rasm">
+                    <h2 class="services__title">Delibry</h2>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente debitis necessitatibus illo vitae laudantium? Sunt quis alias vel voluptatibus delectus!</p>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== MENU ====================-->
+        <section class="menu section bd-container" id="menu">
+            <span class="section-subtitle">Special</span>
+            <h2 class="section-title">Menu od the week</h2>
+
+            <div class="menu__container bd-grid bd-center">
+                <div class="menu__content">
+                    <img src="./assets/img/salat1.jpg" alt="rasm" class="menu__img">
+                    <h3 class="menu__name">Barbecue salat</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$22.00</span>
+                    <a href="#" class="button menu__button">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="./assets/img/salat2.jpg" alt="rasm" class="menu__img">
+                    <h3 class="menu__name">Salat with fish</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$12.00</span>
+                    <a href="#" class="button menu__button">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="./assets/img/salat3.jpg" alt="rasm" class="menu__img">
+                    <h3 class="menu__name">Spinach salat</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$9.50</span>
+                    <a href="#" class="button menu__button">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="./assets/img/salat5.jpg" alt="rasm" class="menu__img">
+                    <h3 class="menu__name">Spinach salat</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$9.50</span>
+                    <a href="#" class="button menu__button">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== APP ====================-->
+        <section class="app section bd-container" id="app">
+            <div class="app__container bd__grid bd-flex">
+                <div class="app__data">
+                    <span class="section-subtitle app__initial">App</span>
+                    <h2 class="section-title app__initial">App is aviable</h2>
+                    <p class="app__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, hic.</p>
+
+                    <div class="app__stores">
+                        <a href="#" class="">
+                            <img src="./assets/img/googleplay3.png" alt="" class="app__store">
+                        </a>
+                        <a href="#" class="">
+                            <img src="./assets/img/appstore.jpg" alt="" class="app__store">
+                        </a>
+                    </div>
+                </div>
+
+                <img src="./assets/img/phonefood-removebg-preview.png" alt="" class="app__img">
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Let's talk</span>
+                    <h2 class="section-title contact__initial">Contact Us</h2>
+                    <p class="contact__description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorum voluptatibus neque minima numquam adipisci!
+                    </p>
+                </div>
+
+                <div class="contact__button">
+                    <a href="#" class="button">Contact Us now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Tasty food</a>
+                <span class="footer__description">Restaruan</span>
+
+                <div>
+                    <a href="#" class="footer__social"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <div class="footer__title">Servces</div>
+                <ul>
+                    <li>
+                        <a href="#" class="footer__link">Delivry</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Fast food</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Reserve your spot</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <div class="footer__title">Information</div>
+                <ul>
+                    <li>
+                        <a href="#" class="footer__link">Event</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Privasy policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Terms of services</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <div class="footer__title">Address</div>
+                <ul>
+                    <li>Lima-Peru</li>
+                    <li>JR Union #999</li>
+                    <li>999-888-777</li>
+                    <li>tastyfood@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer__copy">&#169: 2020 iT. All right reserved</p>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--==================== SWIPER JS ====================-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="./assets/js/main.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src=""></script>
+</body>
+
+</html>
